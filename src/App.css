@@ -1,0 +1,119 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.navbar h1{
+    font-size: 40px;
+    color: white;
+}
+.navbar-title {
+   font-size: 30px; 
+} 
+.navbar-title  a{
+    text-decoration: none;
+    color: white;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0px;
+    position: fixed;
+}
+
+/* Books */
+.books{
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.book-card{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(251, 252, 252);
+    border: 2px solid rgb(248, 244, 244);
+    box-shadow:  10px 10px 10px rgb(7, 7, 7);
+    margin: 10px;
+    border-radius: 10px;
+    
+    
+}
+.book-title{
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    
+}
+.book-image img{
+  
+   
+    width:400px ;
+    height: 300px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    
+}
+.book-image img:hover{
+    transform: scaleY(1.1);
+    /* transform: rotateX(90deg); */
+}
+
+.book-button button{
+  background-color: black;
+  color: white;  
+  border: none;
+  padding: 15px;
+  outline: none;
+  width: 400px;
+  margin-top: 10px;
+ 
+  
+}
+.favourite{
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-details {
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(246, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.book-content1 img{
+    width: 200px;
+    height: 200px;
+}
